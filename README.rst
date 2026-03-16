@@ -445,7 +445,7 @@ Source code: MIT Licence.
 Source data: No known rights — NZ Customs Service.
 See `NZ Customs terms of use <https://www.customs.govt.nz/customs-information-and-legislation/about-this-website/terms-of-use/>`_.
 
-Kraken ontology (``kr:`` namespace): Copyright 2017–2024 Ichiro Furusato.
+Kraken ontology (``kr:`` namespace): Copyright 2017–2026 Ichiro Furusato.
 Subject to the Neocortext Data Licence. The Kraken ontology is a private
 system and is not included in or distributed with this repository. The
 ``kr:`` term identifiers used in the output YAML are references only.
