@@ -326,9 +326,9 @@ audit findings independently.
 
 Severity levels:
 
-- ``[ERROR]`` — Almost certainly wrong. Likely a data entry or housekeeping
-  error with no plausible legitimate explanation (e.g. validFrom after
-  validTo, completely identical duplicate rows).
+- ``[ERROR]`` — Likely wrong, a data entry or housekeeping error with no 
+  plausible legitimate explanation (e.g. validFrom after validTo, 
+  completely identical duplicate rows).
 - ``[WARN]`` — Possibly wrong. An unusual pattern that may have a legitimate
   operational explanation unknown to this tool (e.g. active rates for
   abolished classification codes, amendment chain date gaps).
