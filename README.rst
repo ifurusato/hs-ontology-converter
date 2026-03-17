@@ -111,7 +111,7 @@ Direct downloads:
 
 - `Tariff data (tar.gz) <https://www.customs.govt.nz/media/0nmaamqd/tarifftar.gz>`_
 - `Concession data (tar.gz) <https://www.customs.govt.nz/media/iw5gqprj/concessiontar.gz>`_
-- `Readme (PDF) <https://www.customs.govt.nz/media/y1dmuyec/tariff-and-concession-readme.pdf>`_
+- `Tariff and Concession Readme document (PDF) <https://www.customs.govt.nz/media/y1dmuyec/tariff-and-concession-readme.pdf>`_
 
 The tariff archive extracts to the following CSV files (``~``-delimited,
 Windows-1252 encoded):
@@ -385,21 +385,23 @@ or correct the characterisation of each finding type, identify findings
 that reflect known intentional data patterns, and investigate findings
 that may represent genuine data quality issues.
 
-Results from the current dataset (as of March 2026, current-only mode)::
+Results from the current dataset (timestamp Tue Mar 17 04:00:01 AM NZDT 2026,
+current-only mode)::
 
-    Total findings: 15,515
-      [ERROR]    118
-      [WARN]   5,156
-      [INFO]  10,241
+    Total findings: 15,518
+      [ERROR]     121
+      [WARNING]   5,156
+      [INFO]      10,241
 
-    ONE_DAY_ROW                   10,241  INFO
-    ZOMBIE_RATE                    5,146  WARN
-    DUPLICATE_ROW                     50  ERROR
-    AMENDMENT_CHAIN_OVERLAP           37  ERROR
-    DATE_RANGE_INVERTED               26  ERROR
-    AMENDMENT_CHAIN_GAP               10  WARN
-    DUPLICATE_LEVY_ROW                 4  ERROR
-    DUPLICATE_RATE_ROW                 1  ERROR
+    INFO : ONE_DAY_ROW                  10,241
+    WARN : ZOMBIE_RATE                   5,146
+    ERROR: DUPLICATE_ROW                    50
+    ERROR: AMENDMENT_CHAIN_OVERLAP          37
+    ERROR: DATE_RANGE_INVERTED              26
+    WARN : AMENDMENT_CHAIN_GAP              10
+    ERROR: DUPLICATE_LEVY_ROW                4
+    ERROR: ORPHANED_LEVY                     3
+    ERROR: DUPLICATE_RATE_ROW                1
 
 
 Architecture
