@@ -438,6 +438,10 @@ representation system. The ``kr:`` term references in the output YAML
 are symbolic identifiers; the Kraken ontology itself is not included
 in or distributed with this repository.
 
+`Understanding the Ontology YAML Format <./README-kr.rst>`_ is included
+as a brief description of the Kraken ontology format, as well as of the
+terms defined specifically for the `hs:` and `nztar:` namespaces.
+
 
 Licence
 -------
